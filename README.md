@@ -10,10 +10,23 @@
 
 ### 🏠 [Homepage](https://www.atareao.es)
 
-## Install
+
+## Convertir los fondos de pantalla
+
+Para convertir los fondos de pantalla de formato SVG a PNG tienes que ejecutar el script que está en la carpeta scripts.
+
+Se generarán tantos fondos de pantalla como imágenes SVG en el directorio `src` encuentre el script.
+
+Los formatos de pantalla vienen definidos por el nombre de los directorios en fondos. Estos nombres deben ser números enteros separados por una `x`. Es decir, `anchoxalto`. De esta manera se determina las dimensiones.
+
+Si no quieres algún formato simplemente borra el directorio o directorios del cual no quieres formatos.
+
+### Dependencias
+
+Necesitas tener instalado Inkscape. Inkscape solo se utiliza para convertir las imágenes en formato SVG a formato PNG.
 
 ```sh
-npm install
+sripts/topng.sh
 ```
 
 ## Author
@@ -25,7 +38,6 @@ npm install
 
 ## Show your support
 
-Give a ⭐️ if this project helped you!
-
+Dame una ⭐️ si este proyecto te ha servido o mejorado tu vida!!
 ***
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
