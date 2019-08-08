@@ -18,13 +18,13 @@ do
 	do
 		if [ "$j" != '.' ] && [ "$j" != '..' ]
 		then
-            res=$(basename $j)
-            width=${res/x*/}
+			res=$(basename $j)
+			width=${res/x*/}
 			height=${res/*x/}
 			dest=$parentdir/fondos/$res/$destfile
-            echo ""
-            echo "Exporting $destfile (as ${width}x${height})"
-            echo "---------------------------------------"
+			echo ""
+			echo "Exporting $destfile (as ${width}x${height})"
+			echo "---------------------------------------"
 			inkscape $src --export-png=$dest --export-width=$width --export-height=$height
 		fi
 	done
