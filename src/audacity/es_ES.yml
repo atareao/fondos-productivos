@@ -6,6 +6,8 @@ reproduction_keys:
   - R
   - Tecla inicio
   - Tecla Fin
+  - ""
+  - ""
 reproduction_descriptions:
   - Reproducir y parar
   - Pausar
@@ -13,3 +15,5 @@ reproduction_descriptions:
   - Grabar
   - Ir al principio
   - Ir al final
+  - ""
+  - ""
