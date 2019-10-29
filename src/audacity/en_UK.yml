@@ -1,0 +1,19 @@
+title_reproduction: Reproduction
+reproduction_keys:
+  - Spacebar
+  - P
+  - X
+  - R
+  - Home key
+  - End key
+  - ""
+  - ""
+reproduction_descriptions:
+  - Play and pause
+  - Pause
+  - Play and pause without rewind
+  - Record
+  - Go to init
+  - Go to end
+  - ""
+  - ""
