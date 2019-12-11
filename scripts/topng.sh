@@ -1,10 +1,16 @@
 #!/bin/bash
 
 # Checks if the inkscape exists
-command -v inkscape >/dev/null 2>&1
-if [[ $? -ne 0 ]]
+if command -v inkscape >/dev/null 2>&1
 then
-	echo >&2 "'inkscape' is required to export svg to png but it's not installed.  Aborting."
+	execute=inkscape
+# Checks if ImageMagick's convert exists
+elif convert --version >/dev/null 2>&1
+then
+	echo >&2 "'inkscape' is preferred to export svg to png but it's not installed.. Trying with 'convert'"
+	execute=convert
+else
+	echo >&2 "'inkscape' or 'convert' are required to export svg to png but they are not found on your system.."
 	exit 1
 fi
 
@@ -25,7 +31,13 @@ do
 			echo ""
 			echo "Exporting $destfile (as ${width}x${height})"
 			echo "---------------------------------------"
-			inkscape $src --export-png=$dest --export-width=$width --export-height=$height
+			if [[ $execute == "inkscape" ]]
+			then
+				inkscape "$src" --export-png=$dest --export-width=$width --export-height=$height
+			elif [[ $execute == "convert" ]]
+			then
+				convert -background none -size "${width}x${height}" "$src" "$dest"
+			fi
 		fi
 	done
 done
