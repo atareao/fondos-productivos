@@ -1,6 +1,8 @@
 <h1 align="center">Welcome to Fondos de pantallas productivos 👋</h1>
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+
 [![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
+
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 <p>
   <img src="https://img.shields.io/badge/version-0.1-blue.svg?cacheSeconds=2592000" />
@@ -32,20 +34,7 @@ Necesitas tener instalado Inkscape. Inkscape solo se utiliza para convertir las 
 sripts/topng.sh
 ```
 
-## Author
-
-👤 **Lorenzo Carbonell**
-
-* Twitter: [@atareao](https://twitter.com/atareao)
-* Github: [@atareao](https://github.com/atareao)
-
-## Show your support
-
-Dame una ⭐️ si este proyecto te ha servido o mejorado tu vida!!
-***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
-
-## Contributors ✨
+## 👤 Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
@@ -66,3 +55,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+
+## Show your support
+
+Dame una ⭐️ si este proyecto te ha servido o mejorado tu vida!!
+***
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
