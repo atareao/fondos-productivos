@@ -15,6 +15,15 @@
         "test",
         "code"
       ]
+    },
+    {
+      "login": "atareao",
+      "name": "Lorenzo Carbonell",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/298055?v=4",
+      "profile": "https://www.atareao.es",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
