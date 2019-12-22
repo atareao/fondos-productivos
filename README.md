@@ -1,8 +1,6 @@
 <h1 align="center">Welcome to Fondos de pantallas productivos 👋</h1>
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
-
+[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 <p>
   <img src="https://img.shields.io/badge/version-0.1-blue.svg?cacheSeconds=2592000" />
@@ -56,7 +54,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
+    <td align="center"><a href="https://jakebolam.com"><img src="https://avatars2.githubusercontent.com/u/3534236?v=4" width="100px;" alt=""/><br /><sub><b>Jake Bolam</b></sub></a><br /><a href="#infra-jakebolam" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/atareao/fondos-productivos/commits?author=jakebolam" title="Tests">⚠️</a> <a href="https://github.com/atareao/fondos-productivos/commits?author=jakebolam" title="Code">💻</a></td>
     <td align="center"><a href="https://www.atareao.es"><img src="https://avatars3.githubusercontent.com/u/298055?v=4" width="100px;" alt=""/><br /><sub><b>Lorenzo Carbonell</b></sub></a><br /><a href="https://github.com/atareao/fondos-productivos/commits?author=atareao" title="Code">💻</a></td>
+    <td align="center"><a href="https://azamarro.github.io/"><img src="https://avatars2.githubusercontent.com/u/16717087?v=4" width="100px;" alt=""/><br /><sub><b>AZamarro</b></sub></a><br /><a href="https://github.com/atareao/fondos-productivos/commits?author=AZamarro" title="Code">💻</a></td>
   </tr>
 </table>
 
