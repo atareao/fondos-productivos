@@ -51,6 +51,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "podcastlinux",
+      "name": "Podcast Linux",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/23723653?v=4",
+      "profile": "http://avpodcast.net/podcastlinux/",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
