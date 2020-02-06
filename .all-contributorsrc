@@ -1,0 +1,60 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [    
+    {
+      "login": "atareao",
+      "name": "Lorenzo Carbonell",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/298055?v=4",
+      "profile": "https://www.atareao.es",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "mdtrooper",
+      "name": "Miguel de Dios Matias",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1285451?v=4",
+      "profile": "http://tomatesasesinos.com",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "Marzal",
+      "name": "David Marzal",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/2069735?v=4",
+      "profile": "https://github.com/Marzal",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "AZamarro",
+      "name": "AZamarro",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/16717087?v=4",
+      "profile": "https://azamarro.github.io/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "podcastlinux",
+      "name": "Podcast Linux",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/23723653?v=4",
+      "profile": "http://avpodcast.net/podcastlinux/",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "fondos-productivos",
+  "projectOwner": "atareao",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
