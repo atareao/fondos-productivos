@@ -585,7 +585,7 @@
          id="tspan2104"
          x="347.41138"
          y="42.486675"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.58333302px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke-width:0.26458332px">Autocombletado</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.58333302px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke-width:0.26458332px">Autocompletado</tspan></text>
     <g
        transform="matrix(0.38084037,0,0,0.38079772,367.4582,247.93147)"
        id="g287"
@@ -1215,7 +1215,7 @@
          x="394.87445"
          y="159.00185"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:100%;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#969696;fill-opacity:1;stroke-width:0.26458332px"
-         id="tspan2141">muestra la historia</tspan></text>
+         id="tspan2141">Muestra la historia</tspan></text>
     <text
        id="text2096"
        y="74.236679"
@@ -1237,12 +1237,12 @@
          y="224.03114"
          x="347.42599"
          sodipodi:role="line"
-         id="tspan2157">Ctrl+Mayúsc+C</tspan><tspan
+         id="tspan2157">Ctrl+Mayús+C</tspan><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:100%;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#ffffff;fill-opacity:1;stroke-width:0.26458332px"
          y="231.0867"
          x="347.42599"
          sodipodi:role="line"
-         id="tspan2169">Ctrl+Mayúsc+P</tspan><tspan
+         id="tspan2169">Ctrl+Mayús+P</tspan><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:100%;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#ffffff;fill-opacity:1;stroke-width:0.26458332px"
          y="238.14226"
          x="347.42599"
@@ -1323,6 +1323,6 @@
          sodipodi:role="line"
          x="215.45108"
          y="248.36684"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:100%;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#ffffff;fill-opacity:1;stroke-width:0.26458332px">Cortrar y borrar</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:100%;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#ffffff;fill-opacity:1;stroke-width:0.26458332px">Cortar y borrar</tspan></text>
   </g>
 </svg>
