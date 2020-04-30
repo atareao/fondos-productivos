@@ -1,7 +1,7 @@
 <h1 align="center">Welcome to Fondos de pantallas productivos 👋</h1>
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 
-[![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#-contributors-)
 
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 <p>
@@ -28,7 +28,7 @@ Si no quieres algún formato simplemente borra el directorio o directorios del c
 
 ### Dependencias
 
-Necesitas tener instalado Inkscape. Inkscape solo se utiliza para convertir las imágenes en formato SVG a formato PNG.
+Este script usa [Inkscape](https://inkscape.org/) para convertir las imágenes en formato SVG a PNG. En caso de no encontrarlo se intenta utilizar [ImageMagick](https://imagemagick.org).
 
 ```sh
 sripts/topng.sh
