@@ -33,7 +33,7 @@ do
 			echo "---------------------------------------"
 			if [[ $execute == "inkscape" ]]
 			then
-				inkscape "$src" --export-png=$dest --export-width=$width --export-height=$height
+				inkscape "$src" --export-type="png" --export-filename=$dest --export-width=$width --export-height=$height
 			elif [[ $execute == "convert" ]]
 			then
 				convert -background none -size "${width}x${height}" "$src" "$dest"
