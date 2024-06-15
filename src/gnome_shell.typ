@@ -1,30 +1,43 @@
-#import "@preview/fletcher:0.4.5" as fletcher: diagram, node, edge
+//ref https://gist.github.com/rothgar/7079722
 #set page(
   "presentation-16-9",
   fill: black,
   margin: 0.5cm)
-#set text(size: 13pt, fill: white)
-= Bash
+#set text(size: 11pt, fill: white)
+= GNOME Shell
   #columns(3, gutter: 12pt)[
-    == Trabajando con procesos
+    == Navegación general
+    #line(stroke: white, length: 100%)
     #table(
-      columns: (1fr, 5fr),
+      columns: (1fr, 1.7fr),
       gutter: -4pt,
-      `Ctrl+C`, "Mata un proceso",
-      `Ctlr+Z`, "Suspende un proceso",
-      `Ctlr+D`, "Cierra la shell",
+      `Super`+" o "+`Alt+F1`, "Actividades",
+      `Alt+F2`, "Ventana de comando",
+      `Super+A`, "Vista de aplicaciones",
+      `Super+M`, "Bandeja de mensajes",
+      `Super+N`, "Notificaciones",
+      `Ctrl+Alt+Tab`, "Alterna el foco",
+      `Alt+Esc`, "Alterna entre ventanas",
+      `Ctrl+W`, "Cierra una ventana",
+      `Ctrl+,`, "Configuración",
+      `Ctrl+K Ctrl+S`, "Atajos de teclado",
     )
-    == Controlando la pantalla
+    == Edición básica
     #table(
-      columns: (1fr, 5fr),
+      columns: (1fr, 1.7fr),
       gutter: -4pt,
-      `Ctrl+L`, "Limpia la pantalla",
-      `Ctrl+S`, "Deja de pintar en pantalla",
+      `Ctrl+X`, "Corta una línea",
+      `Ctrl+C`, "Copia una línea",
+      `Alt+`+sym.arrow.t+`/`+sym.arrow.b, "Mueve una línea arriba o abajo",
+      `Ctrl+Shift+K`, "Borra una línea",
+      `Ctrl+Enter`, "Inserta una línea debajo",
+      `Ctrl+Shift+Enter`, "Inserta una línea encima",
+      `Ctrl+Shift+\`, "Inserta una línea encima",
       `Ctrl+Q`, "Vuelve a pintar en pantalla",
     )
     == Moviendo el cursor
     #table(
-      columns: (1fr, 5fr),
+      columns: (1fr, 1.7fr),
       gutter: -4pt,
       `Ctrl+A`,  "Al inicio de la línea",
       `Ctrl+E`,  "Al final de la línea",
@@ -61,27 +74,6 @@
       `Alt+T`,  "Intercambia la palabra con la anterior",
       `Ctrl+T`,  "Intercambia dos caracteres",
       `Ctrl+_`,  "Deshacer",
-    )
-    == Movimientos
-    #set text(12pt)
-    #diagram(
-      node-stroke: 3pt,
-      edge-stroke: white + 1pt,
-      spacing: 0pt,
-      node((0, 0), `$`),
-      node((1, 0), ``),
-      node((2, 0), `rm`),
-      node((3, 0), ``),
-      node((4, 0), `file1.txt`),
-      node((5,0), `|`),
-      node((6,0), `file2.txt`),
-      node((7, 0), ``),
-      node((8,0), `file3.txt`),
-      node((9,0), ``),
-      edge((5,0), (9,0), `Ctrl+E`, "-|>", bend: 90deg),
-      edge((5,0), (7,0), `Alt+F`, "-|>", bend: 90deg),
-      edge((5,0), (1,0), `Ctrl+A`, "-|>", bend: -100deg),
-      edge((5,0), (3,0), `Alt+B`, "-|>", bend: -80deg),
     )
     == Autocompletado
     #table(
