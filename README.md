@@ -26,6 +26,10 @@ Los formatos de pantalla vienen definidos por el nombre de los directorios en fo
 
 Si no quieres algún formato simplemente borra el directorio o directorios del cual no quieres formatos.
 
+**Nota**
+
+Está pendiente actualizar los scripts para poder gestionarlos con `typst`.
+
 ### Dependencias
 
 Este script usa [Inkscape](https://inkscape.org/) para convertir las imágenes en formato SVG a PNG. En caso de no encontrarlo se intenta utilizar [ImageMagick](https://imagemagick.org).
