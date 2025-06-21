@@ -17,18 +17,58 @@
       `Ctrl+,`, "Configuración",
       `Ctrl+K Ctrl+S`, "Atajos de teclado",
     )
+    == Moviendo el cursor
+     #table(
+      columns: (1fr, 1.7fr),
+      gutter: -4pt,
+      `Ctrl+➡️`,  "Mueve el cursor al principio de la siguiente palabra",
+      `Ctrl+⬅️`, "Mueve el cursor al principio de la anterior palabra",
+      `🏠`, "Mueve el cursor al principio de la línea",
+      `🔚`, "Mueve el cursor al final de la línea",
+     )
+    == Seleccionar
+    #table(
+      columns: (1fr, 1.7fr),
+      gutter: -4pt,
+      `Ctrl+L`, "Selecciona la línea bajo el cursor",
+      `Ctrl+D`, "Selecciona la palabra bajo el cursor",
+      `Ctrl+K`, "Se salta la ocurrencia bajo el cursor",
+      `Ctrl+U`, "Selecciona la ocurrencia anterior",
+      `Ctrl+Shift+L`, "Selecciona todas las ocurrencias de la selección",
+      `Shift+Alt+➡️`, "Expande la selección",
+      `Shift+Alt+⬅️`, "Reduce la selección",
+      `Ctrl+Shift+➡️`, "Selecciona la siguiente palabra a la derecha",
+      `Ctrl+Shift+⬅️`, "Selecciona la siguiente palabra a la izquierda",
+      `Ctrl+A`, "Selecciona todo el texto",
+    )
     == Edición básica
     #table(
       columns: (1fr, 1.7fr),
       gutter: -4pt,
-      `Ctrl+X`, "Corta una línea",
-      `Ctrl+C`, "Copia una línea",
-      `Alt+`+sym.arrow.t+`/`+sym.arrow.b, "Mueve una línea arriba o abajo",
-      `Ctrl+Shift+K`, "Borra una línea",
-      `Ctrl+Enter`, "Inserta una línea debajo",
-      `Ctrl+Shift+Enter`, "Inserta una línea encima",
       `Ctrl+Shift+\`, "Inserta una línea encima",
       `Ctrl+Q`, "Vuelve a pintar en pantalla",
+      `Ctrl+L`, "Selecciona la línea en curso",
+      `Ctrl+D`, "Selecciona la palabra en curso",
+
+      `Ctrl+X`, "Cortar línea (sin selección)",
+      `Ctrl+C`, "Copiar línea (sin selección)",
+      `Alt+ ↓ / ↑`, "Mover línea abajo/arriba",
+      `Ctrl+Shift+K`, "Eliminar línea",
+      `Ctrl+Enter / Ctrl+Shift+Enter`, "Insertar línea debajo/encima",
+      `Ctrl+Shift+\`, "Saltar al corchete coincidente",
+      `Ctrl+] / Ctrl+[ `, "Aumentar/disminuir sangría de la línea",
+      `Home / End`, "Ir al principio/final de la línea",
+      `Ctrl+Home / End`, "Ir al principio/final del archivo",
+      `Ctrl+ ↑ / ↓`, "Desplazar línea arriba/abajo",
+      `Alt+ PgUp / PgDn`, "Desplazar página arriba/ abajo",
+      `Ctrl+Shift+ [ / ]`, "Plegar/desplegar región",
+      `Ctrl+K Ctrl+ [ / ]`, "Plegar/desplegar todas las subregiones",
+      `Ctrl+K Ctrl+0 / Ctrl+K Ctrl+J`, "Plegar/Desplegar todas las regiones",
+      `Ctrl+K Ctrl+C`, "Añadir comentario de línea",
+      `Ctrl+K Ctrl+U`, "Quitar comentario de línea",
+      `Ctrl+/`, "Alternar comentario de línea",
+      `Ctrl+Shift+A`, "Alternar comentario de bloque",
+      `Alt+Z`, "Alternar ajuste de línea",
     )
     == Moviendo el cursor
     #table(
