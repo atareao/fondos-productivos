@@ -11,7 +11,7 @@
 
 #show: cram-snap.with(
   title: [Zed],
-  icon: image("zed-icon.png"),
+  icon: image("images/zed-icon.png"),
   column-number: 3,
 )
 #set table(columns: (1fr, 1fr))
