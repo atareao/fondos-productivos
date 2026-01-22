@@ -6,7 +6,7 @@
 
 #set text(
   font: "DejaVu Sans",
-  size: 7.5pt,
+  size: 13pt,
   lang: "es"
 )
 
